@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.ele h1{
+  padding-left: 20px;
+  padding-top: 20px;
+  color: red;
+}
+.ele h4{
+  padding-left: 20px;
+  padding-top: 20px;
+  color: blue;
+  letter-spacing: 2px;
+}
+.ele p{
+  font-size: 30px;
+  color: yellow;
+  float: left;
+  padding-left: 20px;
+  padding-top: 30px;
+}
