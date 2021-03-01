@@ -11,6 +11,7 @@ import Data from './Sdata';
 function CallAll(val){
   return(
     <Card
+         key = {val.id}
          imgsrc = {val.imgsrc}
          altname = {val.altname}
          title = {val.title}
