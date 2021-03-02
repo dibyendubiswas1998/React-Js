@@ -1,0 +1,38 @@
+.div{
+    height: 370px;
+    width: 800px;
+    margin: 50px 120px;
+}
+form{
+    float: left;
+    height: 100%;
+    width: 50%;
+}
+.frm{
+    height: 100%;
+    width: 100%;
+}
+.values{
+    float: left;
+    height: 100%;
+    width: 48%;
+}
+.frm input{
+    height: 10%;
+    width: 90%;
+    margin-top: 25px;
+    padding-left: 10px;
+}
+.frm button{
+    height: 12%;
+    width: 93.9%;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.values h1{
+    padding-top: 7px;
+    padding-left: 10px;
+}
+.values span{
+    color: red;
+}
