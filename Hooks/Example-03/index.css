@@ -1,0 +1,23 @@
+.div_ele{
+    height: 50px;
+    width: 400px;
+    background-color: rgb(165, 252, 186);
+    border-radius: 10px;
+    position: relative;
+}
+.div_ele p{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.div_ele button{
+    height: 20px;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    background-color: rgb(250, 86, 86);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
