@@ -9,6 +9,10 @@ const App = () =>{
     };
     useEffect(() =>{
         window.addEventListener('resize', ChangeWidth);
+        // Cleanup functions:--
+        return () =>{
+            window.removeEventListener('resize', ChangeWidth);
+        }
     });
     return(
         <>
